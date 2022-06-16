@@ -6,6 +6,7 @@ WKWebVeiw 를 띄워서 스토어 페이지르 띄우고 있다.
 ![](2022.06.16.png)
 
 2. let configuration = WKWebViewConfiguration()
+
    configuration.dataDetectorTypes = []
    
 Config 객체를 만들어서 dataDetectorTypes 에 빈 배열을 넣어서 모든 데이터 타입을 감지하지 않도록 할 수 있다.
